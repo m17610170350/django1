@@ -1,4 +1,4 @@
-"""ttsx01 URL Configuration
+"""upload_pictures URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.8/topics/http/urls/
@@ -16,11 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
-
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url('^', include('tt_goods.urls')),
-    url('^cart/', include('tt_cart.urls')),
-    url('^order/', include('tt_orders.urls')),
-    url('^users/', include('tt_users.urls')),
+    url('^', include('picturestest.urls')),
 ]

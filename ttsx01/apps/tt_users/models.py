@@ -1,15 +1,20 @@
 from django.db import models
 from utils.models import BaseModel
 from django.contrib.auth.models import AbstractUser
+
+
 # Create your models here.
 
 class UserInfo(BaseModel, AbstractUser):
     class Meta:  # ttsx --> dailyfresh --> df
-        db_table = 'df_user'
+        db_table = 'tt_users'
+
 
 class AreaInfo(models.Model):
     title = models.CharField(max_length=20)
     aParent = models.ForeignKey('self', null=True, blank=True)
+
+
 class AddressInfo(BaseModel):
     receiver = models.CharField(max_length=10)
     province = models.ForeignKey('AreaInfo', related_name='province')
