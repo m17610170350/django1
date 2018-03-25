@@ -5,7 +5,7 @@ from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
 
-class UserInfo(BaseModel, AbstractUser):
+class UserInfo(AbstractUser, BaseModel):
     class Meta:  # ttsx --> dailyfresh --> df
         db_table = 'tt_users'
 
