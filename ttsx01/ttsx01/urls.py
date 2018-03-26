@@ -23,7 +23,7 @@ urlpatterns = [
     url('^', include('tt_goods.urls')),
     url('^cart/', include('tt_cart.urls')),
     url('^order/', include('tt_orders.urls')),
-    url('^users/', include('tt_users.urls')),
+    url('^user/', include('tt_users.urls')),
     #url(r'^site_media/(?P<path>.*)$','django.views.static.serve',{'document_root':settings.STATIC_PATH}),
 
 ]

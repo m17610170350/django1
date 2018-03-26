@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.generic import View
 from .models import UserInfo
@@ -78,8 +78,20 @@ class RegisterView(View):
         msg = '<a href="http://127.0.0.1:8000/user/active/%s">点击激活</a>' % value
         send_mail('天天生鲜账户激活', '', settings.EMAIL_FROM, [uemail], html_message=msg)
 
-
         return HttpResponse('请接收邮件激活账户(有效时间两小时)')
 
+
 def active(request, value):
-    pass
+    serializer = Serializer(settings.SECRET_KEY)
+    try:
+        # 解析用户编号
+        dict = serializer.loads(value)
+        userid = dict.get('id')
+        # 激活账户
+        user = UserInfo.objects.get(pk=userid)
+        user.is_active = True
+        user.save()
+        # 转向登录页面
+        return redirect('/user/login')
+    except SignatureExpired as e:
+        return HttpResponse('Sorry,Your activation link has expired.')
