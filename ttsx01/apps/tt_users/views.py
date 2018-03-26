@@ -6,6 +6,7 @@ import re
 from django.conf import settings
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer, SignatureExpired
 from django.core.mail import send_mail
+from celery_tasks.tasks import send_user_active
 
 
 # Create your views here.
@@ -69,14 +70,17 @@ class RegisterView(View):
         # 稍候进行邮件激发，或许账户不被激活
         user.is_active = False
         user.save()
-        # 将账号信息进行加密
-        serializer = Serializer(settings.SECRET_KEY, 60 * 60 * 2)
-        value = serializer.dumps({'id': user.id})  # 返回bytes
-        value = value.decode()  # 转成字符串，用于拼接地址
+        # # 将账号信息进行加密
+        # serializer = Serializer(settings.SECRET_KEY, 60 * 60 * 2)
+        # value = serializer.dumps({'id': user.id})  # 返回bytes
+        # value = value.decode()  # 转成字符串，用于拼接地址
+        #
+        # # 向用户发送邮件
+        # msg = '<a href="http://127.0.0.1:8000/user/active/%s">点击激活</a>' % value
+        # send_mail('天天生鲜账户激活', '', settings.EMAIL_FROM, [uemail], html_message=msg)
 
-        # 向用户发送邮件
-        msg = '<a href="http://127.0.0.1:8000/user/active/%s">点击激活</a>' % value
-        send_mail('天天生鲜账户激活', '', settings.EMAIL_FROM, [uemail], html_message=msg)
+        #使用celery发送激活邮件
+        send_user_active.delay(user)
 
         return HttpResponse('请接收邮件激活账户(有效时间两小时)')
 
