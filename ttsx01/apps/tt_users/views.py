@@ -1,12 +1,12 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.views.generic import View
 from .models import UserInfo
 import re
 from django.conf import settings
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer, SignatureExpired
-from django.core.mail import send_mail
 from celery_tasks.tasks import send_user_active
+from django.contrib.auth import authenticate, login, logout
 
 
 # Create your views here.
@@ -79,7 +79,7 @@ class RegisterView(View):
         # msg = '<a href="http://127.0.0.1:8000/user/active/%s">点击激活</a>' % value
         # send_mail('天天生鲜账户激活', '', settings.EMAIL_FROM, [uemail], html_message=msg)
 
-        #使用celery发送激活邮件
+        # 使用celery发送激活邮件
         send_user_active.delay(user)
 
         return HttpResponse('请接收邮件激活账户(有效时间两小时)')
@@ -99,3 +99,87 @@ def active(request, value):
         return redirect('/user/login')
     except SignatureExpired as e:
         return HttpResponse('Sorry,Your activation link has expired.')
+
+
+def exists(request):
+    '判断用户名或邮箱是否存在'
+    uname = request.GET.get('uname')
+    if uname is not None:
+        result = UserInfo.objects.filter(username=uname).count()
+    uemail = request.GET.get('email')
+    if uemail is not None:
+        result1 = UserInfo.objects.filter(email=uemail).count()
+    return JsonResponse({'result': result}, {'result1': result1})
+
+
+class LoginView(View):
+    def get(self, request):
+        uname = request.COOKIES.get('uname', '')
+        return render(request, 'login.html', {'title': '登录', 'uname': uname})
+
+    def post(self, request):
+        # 接收数据
+        dict = request.POST
+        uname = dict.get('username')
+        pwd = dict.get('pwd')
+        remember = dict.get('remember')
+
+        # 构造返回值
+        context = {
+            'title': '登录处理',
+            'uname': uname,
+            'pwd': pwd,
+            'err_msg': '请填写完成信息'
+        }
+
+        # 验证是否填写数据
+        if not all([uname, pwd]):
+            return render(request, 'login.html', context)
+
+        #验证用户名、密码是否正确
+        user = authenticate(username=uname, password=pwd)
+        if user is None:
+            context['err_msg'] = '用户名或密码错误'
+            return render(request, 'login.html', context)
+
+        #判断用户是否激活
+        if not user.is_active:
+            context['err_msg'] = '请到邮箱激活账户'
+            render(request, 'login.html', context)
+
+        #记录状态
+        login(request, user)
+
+        response = redirect('/user/info')
+
+        #是否记住用户名
+        if remember is not None:
+            response.set_cookie('uname', uname, expires=60*60*24*7)
+        else:
+            response.delete_cookie('uname')
+
+        # 转向用户中心
+        return response
+
+
+def logout_user(request):
+    # django.contrib.auth提供的退出方法
+    logout(request)
+    return redirect('/user/login')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
