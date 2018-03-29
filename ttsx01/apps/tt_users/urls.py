@@ -8,6 +8,7 @@ urlpatterns = [
     url('^register$', views.RegisterView.as_view()),
     url('^active/(.+)$', views.active),
     url('^exists$', views.exists),
-    url('^login$', views.login),
-    url('^logout$', views.logout),
+    url('^login$', views.LoginView.as_view()),
+    url('^logout$', views.logout_user),
+    url('^info$', views.info),
 ]

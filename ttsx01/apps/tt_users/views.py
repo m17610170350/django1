@@ -6,7 +6,11 @@ import re
 from django.conf import settings
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer, SignatureExpired
 from celery_tasks.tasks import send_user_active
+# from celery_tasks.tasks import send_active_email
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
+from django_redis import get_redis_connection
+from tt_goods.models import GoodsSKU
 
 
 # Create your views here.
@@ -66,7 +70,7 @@ class RegisterView(View):
             context['err_msg'] = '邮箱已存在'
             return render(request, 'register.html', context)
         # 处理（创建用户对象）
-        user = UserInfo.objects.create_user(uname, upwd, uemail)
+        user = UserInfo.objects.create_user(uname, uemail, upwd)
         # 稍候进行邮件激发，或许账户不被激活
         user.is_active = False
         user.save()
@@ -74,13 +78,14 @@ class RegisterView(View):
         # serializer = Serializer(settings.SECRET_KEY, 60 * 60 * 2)
         # value = serializer.dumps({'id': user.id})  # 返回bytes
         # value = value.decode()  # 转成字符串，用于拼接地址
-        #
+        # #
         # # 向用户发送邮件
         # msg = '<a href="http://127.0.0.1:8000/user/active/%s">点击激活</a>' % value
         # send_mail('天天生鲜账户激活', '', settings.EMAIL_FROM, [uemail], html_message=msg)
 
         # 使用celery发送激活邮件
         send_user_active.delay(user)
+        # send_active_email.delay (uemail, uname, value)
 
         return HttpResponse('请接收邮件激活账户(有效时间两小时)')
 
@@ -168,10 +173,38 @@ def logout_user(request):
     return redirect('/user/login')
 
 
+@login_required
+def info(request):
+    # # django验证系统：判断用户是否登录
+    # if request.user.is_authenticated():
+    #     pass
+    # else:
+    #     return redirect('/user/login')
 
+    """从redis中读取浏览记录
+    浏览记录在商品的详细页视图中添加（后面再做）
+    获取redis服务器的连接"""
+    # client = get_redis_connection()
+    # history_list = client.lrange('history%d' % request.user.id, 0, -1)
+    # history_list2 = []
+    # if history_list:
+    #     for gid in history_list:
+    #         history_list2.append(GoodsSKU.objects.get(pk=gid))
+    #
+    # # 查询默认收货地址，返回列表，如果不存在则返回空列表
+    # addr = request.user.addressinfo_set.all().filter(isDefault=True)
+    # if addr:
+    #     addr = [0]
+    # else:
+    #     addr = ''
+    #
+    # context = {
+    #     'title': '个人信息',
+    #     'addr' : addr,
+    #     'history': history_list2,
+    # }
 
-
-
+    return render(request, 'user_center_info.html')
 
 
 
