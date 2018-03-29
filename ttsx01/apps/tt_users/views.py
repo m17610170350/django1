@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 from django.views.generic import View
-from .models import UserInfo
+from .models import UserInfo, AddressInfo
 import re
 from django.conf import settings
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer, SignatureExpired
@@ -11,6 +11,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django_redis import get_redis_connection
 from tt_goods.models import GoodsSKU
+from utils.views import LoginRequiredView, LoginRequiredViewMixin
 
 
 # Create your views here.
@@ -184,8 +185,8 @@ def info(request):
     """从redis中读取浏览记录
     浏览记录在商品的详细页视图中添加（后面再做）
     获取redis服务器的连接"""
-    # client = get_redis_connection()
-    # history_list = client.lrange('history%d' % request.user.id, 0, -1)
+    client = get_redis_connection('default')
+    # history_list = client.lrange('history%d' % request.user.id, 0, -1)  # 获取到的是一个列表
     # history_list2 = []
     # if history_list:
     #     for gid in history_list:
@@ -194,7 +195,7 @@ def info(request):
     # # 查询默认收货地址，返回列表，如果不存在则返回空列表
     # addr = request.user.addressinfo_set.all().filter(isDefault=True)
     # if addr:
-    #     addr = [0]
+    #     addr = addr[0]
     # else:
     #     addr = ''
     #
@@ -206,13 +207,33 @@ def info(request):
 
     return render(request, 'user_center_info.html')
 
+@login_required
+def order(request):
+    context = {
+
+    }
+    return render(request, 'user_center_order.html', context)
 
 
+class SiteView(LoginRequiredViewMixin, View):
+    def get(self, request):
+        # 查询当前用户的收货地址
+        addr_list = AddressInfo.objects.filter(user=request.user)
+        context = {
+            'title': '收货地址',
+            'addr_list': addr_list,
+        }
+        return render(request, 'user_center_site.html', context)
 
 
+    def post(self, request):
+        dict = request.POST
 
-
-
-
-
-
+        receiver = dict.get('receiver')
+        province = dict.get('province')
+        city = dict.get('city')
+        district = dict.get('district')
+        addr1 = dict.get('addr')
+        code = dict.get('code')
+        phone = dict.get('phone')
+        default = dict.get('default')

@@ -123,5 +123,18 @@ EMAIL_HOST_USER = 'm17610170350@163.com'  # 授权的邮箱
 EMAIL_HOST_PASSWORD = 'qian7426'  # 邮箱授权时获得的密码，非注册登录密码
 EMAIL_FROM = '天天生鲜<m17610170350@163.com>'  # 发件人抬头
 
+# 缓存
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/5",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "default"
 
 LOGIN_URL = '/user/login'

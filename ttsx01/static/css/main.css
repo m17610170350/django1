@@ -221,6 +221,7 @@ html,body{height:100%}
 
 .pagenation{height:32px;text-align:center;font-size:0;margin:30px auto;}
 .pagenation a{display:inline-block;border:1px solid #d2d2d2;background-color:#f8f6f7;font-size:12px;padding:7px 10px;color:#666;margin:5px}
+.pagenation span{display:inline-block;border:1px solid #d2d2d2;background-color:#f8f6f7;font-size:12px;padding:7px 10px;color:#666;margin:5px}
 
 .pagenation .active{background-color:#fff;color:#43a200}
 
@@ -606,7 +607,7 @@ html,body{height:100%}
 	line-height:40px;
 }
 
-.site_con .form_group input{
+.site_con .form_group input,select{
 	width:300px;
 	height:25px;
 	border:1px solid #ddd;
@@ -614,6 +615,9 @@ html,body{height:100%}
 	outline:none;
 	margin-top:7px;
 	text-indent:10px;
+}
+.site_con .form_group select{
+	width:100px;
 }
 
 .site_con .form_group2{
