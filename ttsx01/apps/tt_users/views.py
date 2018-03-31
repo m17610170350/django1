@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 from django.views.generic import View
-from .models import UserInfo, AddressInfo
+from .models import UserInfo, AddressInfo, AreaInfo
 import re
 from django.conf import settings
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer, SignatureExpired
@@ -186,26 +186,26 @@ def info(request):
     浏览记录在商品的详细页视图中添加（后面再做）
     获取redis服务器的连接"""
     client = get_redis_connection('default')
-    # history_list = client.lrange('history%d' % request.user.id, 0, -1)  # 获取到的是一个列表
-    # history_list2 = []
-    # if history_list:
-    #     for gid in history_list:
-    #         history_list2.append(GoodsSKU.objects.get(pk=gid))
-    #
-    # # 查询默认收货地址，返回列表，如果不存在则返回空列表
-    # addr = request.user.addressinfo_set.all().filter(isDefault=True)
-    # if addr:
-    #     addr = addr[0]
-    # else:
-    #     addr = ''
-    #
-    # context = {
-    #     'title': '个人信息',
-    #     'addr' : addr,
-    #     'history': history_list2,
-    # }
+    history_list = client.lrange('history%d' % request.user.id, 0, -1)  # 获取到的是一个列表
+    history_list2 = []
+    if history_list:
+        for gid in history_list:
+            history_list2.append(GoodsSKU.objects.get(pk=gid))
 
-    return render(request, 'user_center_info.html')
+    # 查询默认收货地址，返回列表，如果不存在则返回空列表
+    addr = request.user.addressinfo_set.all().filter(isDefault=True)
+    if addr:
+        addr = addr[0]
+    else:
+        addr = ''
+
+    context = {
+        'title': '个人信息',
+        'addr' : addr,
+        'history': history_list2,
+    }
+
+    return render(request, 'user_center_info.html', context)
 
 @login_required
 def order(request):
@@ -237,3 +237,55 @@ class SiteView(LoginRequiredViewMixin, View):
         code = dict.get('code')
         phone = dict.get('phone')
         default = dict.get('default')
+        print(receiver, province, city, district, addr1, code, phone)
+
+
+        # 构造反馈信息
+        context = {
+
+            'title': '保存收货地址',
+            'err_msg': '',
+        }
+
+        # 验证信息的完整性
+        if not all([receiver, province, city, district, addr1, code, phone]):
+            context['err_msg'] = '数据填写不完整'
+            return render(request, 'user_center_site.html', context)
+
+        # 保存地址对象
+        addr = AddressInfo()
+        addr.user = request.user  # 当前地址对应的用户
+        addr.receiver = receiver
+        addr.province_id = province
+        addr.city_id = city
+        addr.district_id = district
+        addr.addr = addr1
+        addr.code = code
+        addr.phone_number = phone
+        if default is not None:
+            addr.isDefault = True
+        addr.save()
+
+        return redirect('/user/site')
+
+
+
+def area(request):
+    # 接收上级地区的编号
+    pid = request.GET.get('pid')
+
+    if pid is None:
+        # 查询所有省
+        slist = AreaInfo.objects.filter(aParent__isnull=True)
+    else:
+        # 如果pid是省编号，则查询市
+        # 如果pid是市编号，则查询县区
+        slist = AreaInfo.objects.filter(aParent_id=pid)
+
+    # [{id:1,title:***},{},{}]
+    # 构造json数据
+    slist2 = []
+    for s in slist:
+        slist2.append({'id': s.id, 'title': s.title})
+
+    return JsonResponse({'list': slist2})

@@ -12,5 +12,6 @@ urlpatterns = [
     url('^logout$', views.logout_user),
     url('^info$', views.info),
     url('^order$', views.order),
-    url('^site$', views.SiteView.as_view())
+    url('^site$', views.SiteView.as_view()),
+    url('^area$', views.area),
 ]
