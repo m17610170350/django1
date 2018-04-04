@@ -1,9 +1,13 @@
 from django.shortcuts import render
-from .models import GoodsCategory, Goods, GoodsSKU, GoodsImage, IndexCategoryGoodsBanner, IndexGoodsBanner, \
-    IndexPromotionBanner
+from .models import GoodsCategory, IndexGoodsBanner, IndexPromotionBanner, IndexCategoryGoodsBanner
 
 
 # Create your views here.
+def test(request):
+    category = GoodsCategory.objects.get(pk=1)
+    context = {'category': category}
+    return render(request, 'fdfs_test.html', context)
+
 
 def index(request):
     # 查询分类信息

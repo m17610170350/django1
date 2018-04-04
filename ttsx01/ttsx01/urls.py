@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+import tinymce.urls
 #from django.conf import settings
 
 
@@ -24,7 +25,7 @@ urlpatterns = [
     url('^cart/', include('tt_cart.urls')),
     url('^order/', include('tt_orders.urls')),
     url('^user/', include('tt_users.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
     #url(r'^site_media/(?P<path>.*)$','django.views.static.serve',{'document_root':settings.STATIC_PATH}),
 
 ]
-

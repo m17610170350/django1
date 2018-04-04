@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'tt_cart',
     'tt_goods',
     'tt_orders',
+    'tinymce',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -138,3 +139,17 @@ SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "default"
 
 LOGIN_URL = '/user/login'
+
+
+TINYMCE_DEFAULT_CONFIG = {
+  'theme': 'advanced', # 丰富样式
+  'width': 600,
+  'height': 400,
+}
+
+#指定保存文件的类，在这个类中，可以编写上传文件到Fdfs的代码
+DEFAULT_FILE_STORAGE = 'utils.storage.FdfsStorage'
+#指定fdfs文件服务器读取文件的路径
+FDFS_SERVER='http://127.0.0.1:8888/'
+#指定fdfs配置文件
+FDFS_CLIENT=os.path.join(BASE_DIR,'utils/fdfs_client.conf')
