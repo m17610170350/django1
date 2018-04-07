@@ -3,12 +3,6 @@ from .models import GoodsCategory, IndexGoodsBanner, IndexPromotionBanner, Index
 
 
 # Create your views here.
-def test(request):
-    category = GoodsCategory.objects.get(pk=1)
-    context = {'category': category}
-    return render(request, 'fdfs_test.html', context)
-
-
 def index(request):
     # 查询分类信息
     category_list = GoodsCategory.objects.all()
