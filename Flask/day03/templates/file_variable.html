@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h3>request : {{ request.url }} , {{ request.method }}</h3>
+    <hr>
+    <h3>g : {{ g.username }}</h3>
+    <hr>
+    <h3>config : {{ config.SECRET_KEY }}</h3>
+    <hr>
+    <h3>url_for : {{ url_for("test") }}</h3>
+</div>
+<div>
+    {% for messages in get_flashed_messages() %}
+        <p>{{ messages }}</p>
+    {% endfor %}
+</div>
+</body>
+</html>

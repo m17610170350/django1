@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="", method="post">
+    <label for="">用户名</label><input type="text" name="username" placeholder="请输入用户名"><br>
+    <label for="">密码</label><input type="text" name="password" placeholder="请输入密码"><br>
+    <label for="">确认密码</label><input type="text" name="password2" placeholder="请输入确认密码"><br>
+    <input type="submit" value="提交">
+</form>
+
+
+<hr>
+
+
+<form action="" method="post">
+    {{ registerform.csrf_token }}
+    {{ registerform.username.label }}
+    {{ registerform.username }}
+    <br>
+    {{ registerform.password.label }}
+    {{ registerform.password }}
+    <br>
+    {{ registerform.password2.label }}
+    {{ registerform.password2 }}
+    <br>
+    {{ registerform.submit() }}
+
+</form>
+</body>
+</html>
+
+<a href=""></a>

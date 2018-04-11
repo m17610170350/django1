@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>1. 在当前文件中定义宏</h3>
+    {% macro func(name, name2, value) %}
+        <label for="">{{ name }}</label><input type="text"
+    placeholder="请输入用户名" value="{{ value }}">
+        <label for="">{{ name2 }}</label><input type="text"
+    placeholder="请输入密码">
+    {% endmacro %}
+
+    {{ func("身份证", "性别", None) }}
+
+
+    <h3>2. 调用其他文件中的宏</h3>
+    {% import "file_macro2.html" as my_func %}
+    {{ my_func.input1("用户名", "zhangsan") }}
+    {{ my_func.input2("密码", "zhangsan的") }}
+
+</body>
+</html>
