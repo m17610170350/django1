@@ -1,7 +1,9 @@
 #!/usr/bin/ python3
 # -*-coding:utf-8-*-
+from _curses import flash
 
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
+from flask import url_for
 from flask.ext.wtf import FlaskForm
 from flask_sqlalchemy import SQLAlchemy
 
@@ -72,12 +74,61 @@ def index():
 
             # 去数据库中查看该书籍的信息
             book = Book.query.filter(Book.name == bookname, Book.author_id == author.id).first()
-            
+            if book:
+                flash("要添加的书籍已经存在")
+
+            else:
+                # 创建书籍对象,保存到数据库中
+                book = Book(name = bookname, author_id = author.id)
+                db.session.add(book)
+                db.session.commit()
+
+        else: # 如果作者不存在
+            # 创建作者对象,添加
+            author = Author(name = authorname)
+            db.session.add(author)
+            db.session.commit()
+
+            # 创建书籍,添加
+            book = Book(name = bookname, author_id = author.id)
+            db.session.add(book)
+            db.session.commit()
 
 
 
+    # 从数据库中查询作者信息
     authors = Author.query.all()
     return render_template("file_study_libaray.html", bookForm = bookForm, authors=authors)
+
+
+@app.route("/delete_book/<int:id>")
+def delete_book(id):
+    # 根据书籍id查询书籍信息
+    book = Book.query.get(id)
+
+    # 删除
+    db.session.delete(book)
+    db.session.commit()
+
+    # 到主页面显示
+    return redirect(url_for("index"))
+
+@app.route("/delete_author/<int:id>")
+def delete_author(id):
+    # 查询作者
+    author = Author.query.get(id)
+
+    # 删除作者对应的书籍
+    for book in author.books:
+        db.session.delete(book)
+    # 删除作者
+    db.session.delete(author)
+    db.session.commit()
+
+    # 重定向到页面显示
+
+    return redirect(url_for("index"))
+
 
 if __name__ == '__main__':
 
