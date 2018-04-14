@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["POST", "GET"])
 def index():
-    data = request.data  # TODO
+    data = request.data
     url = request.url
     method = request.method
     form = request.form
