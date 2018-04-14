@@ -1,0 +1,19 @@
+INFO _internal.py:87 127.0.0.1 - - [14/Apr/2018 18:25:34] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+DEBUG index.py:11 调试信息
+INFO index.py:12 详情信息
+WARNING index.py:13 警告信息
+ERROR index.py:14 错误信息
+INFO _internal.py:87 127.0.0.1 - - [14/Apr/2018 20:46:31] "GET /api/v1.0/index HTTP/1.1" 200 -
+DEBUG index.py:11 调试信息
+INFO index.py:12 详情信息
+WARNING index.py:13 警告信息
+ERROR index.py:14 错误信息
+INFO _internal.py:87 127.0.0.1 - - [14/Apr/2018 20:47:14] "GET /api/v1.0/index HTTP/1.1" 200 -
