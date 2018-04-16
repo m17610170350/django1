@@ -2,6 +2,7 @@
 # -*-coding:utf-8-*-
 
 # 先在当前类中定义配置的类，并从中加载配置
+import logging
 import redis
 
 
@@ -30,15 +31,17 @@ class BaseConfig:
 class DevelopementConfig(BaseConfig):
     """开发模式下的配置"""
     DEBUG = True
+    DEBUG_LEVEL = logging.DEBUG
 
 
 class ProductionConfig(BaseConfig):
     """生产模式下的配置"""
+    DEBUG_LEVEL = logging.ERROR
     pass
 
 
 # 定义配置字典字典
-config = {
+config_dict = {
     "development": DevelopementConfig,
     "production": ProductionConfig
 }
