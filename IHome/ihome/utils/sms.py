@@ -47,7 +47,7 @@ class CCP(object):
         result = self.rest.sendTemplateSMS(to, datas, tempId)
 
         # 如果返回的是0,则发送成功, 如果返回的是-1,则发送失败
-        print(result["statusCode"])
+        # print(result["statusCode"])
         if result["statusCode"] == "000000":
 
             return 0

@@ -500,3 +500,381 @@ INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:03] "GET /api/v1.0/image_c
 INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:14] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
 INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:39] "GET /register.html?mobile=17610170350&imagecode=NQIM&phonecode=505801&password=111&password2=111 HTTP/1.1" 200 -
 INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:39] "GET /api/v1.0/image_code?cur_id=6c9fa784-2e74-437c-bb78-9a864014561c&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:02] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:03] "GET /api/v1.0/image_code?cur_id=9e552ac0-9026-4029-9bbd-34ac88d4b2fb&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:03] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:09] "GET /api/v1.0/image_code?cur_id=147ea44b-2bc7-46b8-8091-b22241553634&pre_id=9e552ac0-9026-4029-9bbd-34ac88d4b2fb HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:10] "GET /api/v1.0/image_code?cur_id=1f24cca2-93d3-492f-816b-b06750d57f3b&pre_id=147ea44b-2bc7-46b8-8091-b22241553634 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:16] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:28] "GET /register.html?mobile=17610170350&imagecode=RJQY&phoneCode=339183&password=111&password2=111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:09:29] "GET /api/v1.0/image_code?cur_id=5b70365c-5fad-40ac-a4e1-9e4550939169&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/utils/sms.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:21:24] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:21:26] "GET /api/v1.0/image_code?cur_id=319b33c4-a121-4222-a452-31a7413225d8&pre_id=5b70365c-5fad-40ac-a4e1-9e4550939169 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:21:32] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:21:45] "GET /register.html?mobile=17610170350&imagecode=AWPJ&phoneCode=459708&password=111&password2=111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:21:45] "GET /api/v1.0/image_code?cur_id=e4bd5a33-9cba-4084-abe0-6970c794b7ed&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:24:03] "GET /api/v1.0/image_code?cur_id=f05e5ee3-63ed-4fa4-8eff-f6571b1abb9d&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 18:24:08] "GET /api/v1.0/image_code?cur_id=d4aebb2f-b17e-45b5-94e6-aa6dff6812fa&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:24] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:25] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:26] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:26] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:26] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:26] "GET /api/v1.0/image_code?cur_id=1208185d-6bc4-4087-85ac-22eab771284d&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:33] "GET /api/v1.0/image_code?cur_id=dd138973-133c-441a-8fbe-38a09ae81ec0&pre_id=1208185d-6bc4-4087-85ac-22eab771284d HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:17:34] "GET /api/v1.0/image_code?cur_id=c7c527d7-8610-421a-95b9-3b2369e92b5f&pre_id=dd138973-133c-441a-8fbe-38a09ae81ec0 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:21] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:21] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:21] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:21] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:21] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:21] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:21] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:21] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:22] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:22] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:22] "GET /api/v1.0/image_code?cur_id=cc75e70e-dc65-4ace-baf4-b332cc5a1808&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:34] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:45] "GET /register.html?mobile=17610170350&imagecode=9VFE&phoneCode=332027&password=111&password2=111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:18:45] "GET /api/v1.0/image_code?cur_id=fbc80b46-89ec-4dbe-8c8a-197a42431bdd&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:26:51] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:27:00] "GET /api/v1.0/image_code?cur_id=27ea88a2-a6aa-499a-a02c-9333ff5b626f&pre_id=fbc80b46-89ec-4dbe-8c8a-197a42431bdd HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:27:07] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:27:27] "GET /register.html?mobile=17610170350&imagecode=RMFA&phoneCode=631405&password=123&password2=123 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:27:28] "GET /api/v1.0/image_code?cur_id=a010f5bb-9a33-4b90-9ae2-8a6c44f67645&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:31:45] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:31:57] "GET /register.html?mobile=17610170350&imagecode=OMNT&phoneCode=931922&password=123&password2=123 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:31:57] "GET /api/v1.0/image_code?cur_id=3afb5fb9-a422-415b-b2bf-511b1ec9d95a&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:45] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:46] "GET /api/v1.0/image_code?cur_id=9538293c-85c9-464e-9a67-6c7d77ae6b1f&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:46] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:52] "GET /api/v1.0/image_code?cur_id=994f8962-04ab-498a-9d8d-801a266c0cfa&pre_id=9538293c-85c9-464e-9a67-6c7d77ae6b1f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:34:59] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:00] "GET /api/v1.0/image_code?cur_id=46347db6-7fc1-4d0e-b2f2-a649ae63e855&pre_id=994f8962-04ab-498a-9d8d-801a266c0cfa HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:05] "GET /api/v1.0/image_code?cur_id=de886daf-1ae1-4075-a0f3-22b711c449d8&pre_id=46347db6-7fc1-4d0e-b2f2-a649ae63e855 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:13] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "POST /api/v1.0/user HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /index.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:35:24] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:40:42] "GET /login.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:40:43] "GET /static/css/ihome/login.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 19:40:43] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /static/js/ihome/login.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 20:46:32] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:28] "GET /static/js/ihome/login.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:29] "GET /favicon.ico HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:03:34] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:34] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:34] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:35] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:35] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:36] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:36] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:36] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:37] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:37] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:38] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:38] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:39] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:39] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:41] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:41] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:42] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:42] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:43] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:43] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:44] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:45] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:45] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:46] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:46] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:46] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:46] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:46] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:47] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:47] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:47] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:47] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:47] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:47] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:48] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:48] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:48] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:48] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:48] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:48] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:49] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:49] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:49] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:50] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:50] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:50] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:50] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:51] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:51] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /static/js/ihome/login.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:52] "GET /favicon.ico HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:56] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:18:56] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:05] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:05] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:06] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:06] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:06] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:06] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:07] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:07] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:07] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:07] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:07] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:08] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:10] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:10] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:11] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:11] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:11] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:12] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:12] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:12] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:12] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:12] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:13] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:13] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:13] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:13] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:14] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:14] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:14] "POST /api/v1.0/session HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:14] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:31] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:19:35] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/passport.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:46] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:46] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:47] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:47] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:47] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:47] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:47] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:47] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:47] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:47] "GET /static/js/ihome/login.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:51] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:55] "GET /login.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:55] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:55] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:55] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:55] "GET /static/css/ihome/login.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:56] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:56] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:56] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:22:56] "GET /static/js/ihome/login.js HTTP/1.1" 304 -
+ERROR passport.py:127 int() argument must be a string or a number, not 'NoneType'
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:23:08] "POST /api/v1.0/session HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 21:23:09] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
