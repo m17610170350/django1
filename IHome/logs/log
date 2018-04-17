@@ -1,5 +1,281 @@
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:00:02] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:00:02] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:00:02] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:00:02] "GET /api/v1.0/image_code?cur_id=c32043f1-b628-4d1e-add2-67c52fef974e&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:01:32] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:01:35] "GET /api/v1.0/image_code?cur_id=1574e67d-d0f4-4efb-98dd-83b22433f251&pre_id= HTTP/1.1" 404 -
 INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:27:10] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:27:10] "GET /api/v1.0/image_code HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:27:11] "GET /api/v1.0/image_code?cur_id=bd1551e7-5790-4d8f-a762-779b21426ef6&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:27:22] "GET /api/v1.0/image_code?cur_id=77b6832c-bd6a-4f04-8ac0-d7c00f914801&pre_id=bd1551e7-5790-4d8f-a762-779b21426ef6 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 18:27:23] "GET /api/v1.0/image_code?cur_id=51e5ea0f-6d1d-409e-a08f-cc04f8f634ef&pre_id=77b6832c-bd6a-4f04-8ac0-d7c00f914801 HTTP/1.1" 404 -
 INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:42] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /api/v1.0/image_code?cur_id=1733ff42-d36a-4ba6-ac58-e603d5c62d7c&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:34:46] "GET /api/v1.0/image_code?cur_id=5e65671d-be53-4cd5-be3d-bd6349703277&pre_id=1733ff42-d36a-4ba6-ac58-e603d5c62d7c HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:39] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:40] "GET /api/v1.0/image_code?cur_id=d91b28b8-337d-437c-a914-5e9bd1cf8604&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:37:40] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:57:59] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:57:59] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:57:59] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:57:59] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:00] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:00] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:00] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:00] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:00] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:00] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:00] "GET /api/v1.0/image_code?cur_id=1dedc493-941b-422a-8299-907152be388b&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:00] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:06] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:58:07] "GET /api/v1.0/image_code?cur_id=9dd96e89-8488-46f7-9d13-b1f7472d0035&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:45] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:46] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 19:59:46] "GET /api/v1.0/image_code?cur_id=e8b9543d-ba8e-496c-8a45-87eae9f3b979&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:21] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:22] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:01:23] "GET /api/v1.0/image_code?cur_id=f30e8bf5-2ef6-4882-bb8e-61d8e8ce2f08&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:38] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:05:39] "GET /api/v1.0/image_code?cur_id=379b9dc5-523b-4f5b-b8d2-4736a965f0cc&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:30] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:30] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:30] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:30] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:30] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:30] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:30] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:30] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:31] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:31] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:07:31] "GET /api/v1.0/image_code?cur_id=e5e78f83-70f4-4f97-85e8-eb4d354dab7d&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:09:28] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:09:29] "GET /api/v1.0/image_code?cur_id=0149a587-26ed-405c-a2f3-9822ab1920b1&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:09:32] "GET /api/v1.0/image_code?cur_id=1e14eaaa-1fd7-4343-8f34-3fd499724669&pre_id=0149a587-26ed-405c-a2f3-9822ab1920b1 HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:09:34] "GET /api/v1.0/image_code?cur_id=6871b63b-5481-449a-b60c-85fec086dce4&pre_id=1e14eaaa-1fd7-4343-8f34-3fd499724669 HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:08] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:14:09] "GET /api/v1.0/image_code?cur_id=4830e00d-64fc-45aa-9b09-0d00845e0301&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:52] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:53] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:17:54] "GET /api/v1.0/image_code?cur_id=976208b2-6d70-4e4b-9889-7cdff023605c&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:12] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:12] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:12] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:12] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:12] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:12] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:13] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:13] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:13] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:13] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:18:14] "GET /api/v1.0/image_code?cur_id=5cf131ee-0d6f-4639-8f2d-0541e53ff6cd&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:19:38] "GET /api/v1.0/image_code HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:19:47] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:19:56] "GET /api/v1.0/image_code?cur_id=134e3c6a-775c-47e1-84af-1ab6442180ab&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /register.html HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/css/ihome/register.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:33] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:34] "GET /api/v1.0/image_code?cur_id=627347d8-0046-4b10-a154-56ac12f1dddb&pre_id= HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:20:34] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:00] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:00] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:00] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:00] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:00] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:01] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:01] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:01] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:01] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:01] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:02] "GET /api/v1.0/image_code?cur_id=eadb4509-e870-4734-890b-441e946c1852&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:02] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:11] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:11] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:11] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:11] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:11] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:12] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:12] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:12] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:12] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:12] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:13] "GET /api/v1.0/image_code?cur_id=b3a5444f-16b8-4ea1-9e4f-93dc22019a73&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:35] "GET /api/v1.0/image_code?cur_id=c51a5abd-452d-4ec6-bc6c-77fdb05dd710&pre_id=b3a5444f-16b8-4ea1-9e4f-93dc22019a73 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:29:35] "GET /api/v1.0/image_code?cur_id=dc4ce8ae-fca3-4090-b062-c8f84f7cd40b&pre_id=c51a5abd-452d-4ec6-bc6c-77fdb05dd710 HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:11] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:11] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:11] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:11] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:11] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:11] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:11] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:11] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:12] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:12] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:12] "GET /api/v1.0/image_code?cur_id=564382d2-0e0a-420b-b423-7b2cfe4b2172&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:12] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:20] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /api/v1.0/image_code?cur_id=549ba6fe-7292-4574-9be5-13abf05954b2&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:21] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:22] "GET /api/v1.0/image_code?cur_id=f62024a2-2057-4acb-8df7-bc0cf6258071&pre_id=549ba6fe-7292-4574-9be5-13abf05954b2 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:23] "GET /api/v1.0/image_code?cur_id=5e9f09d3-b145-4faa-8c1c-00a9275a50d1&pre_id=f62024a2-2057-4acb-8df7-bc0cf6258071 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:30:23] "GET /api/v1.0/image_code?cur_id=89de8bbb-8645-43c4-8035-4d9692bbdc74&pre_id=5e9f09d3-b145-4faa-8c1c-00a9275a50d1 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /api/v1.0/image_code?cur_id=b351b43f-35fc-45ac-b99b-3bd140fa2388&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 20:31:08] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/verify.py', reloading
 INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 183-578-178
@@ -7,75 +283,7 @@ INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/i
 INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 183-578-178
-DEBUG index.py:11 调试信息
-INFO index.py:12 详情信息
-WARNING index.py:13 警告信息
-ERROR index.py:14 错误信息
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 15:56:40] "GET /api/v1.0/index HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 15:56:40] "GET /favicon.ico HTTP/1.1" 404 -
-INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/__init__.py', reloading
-INFO _internal.py:87  * Restarting with stat
-INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO _internal.py:87  * Restarting with stat
-WARNING _internal.py:87  * Debugger is active!
-INFO _internal.py:87  * Debugger PIN: 183-578-178
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:36] "GET /index.html HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/css/reset.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/js/template.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:25:37] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET / HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/css/reset.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:14] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:15] "GET /static/js/template.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:15] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:15] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:29:15] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
-INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/web_html.py', reloading
-INFO _internal.py:87  * Restarting with stat
-WARNING _internal.py:87  * Debugger is active!
-INFO _internal.py:87  * Debugger PIN: 183-578-178
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET / HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/css/reset.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/css/ihome/main.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/js/template.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/images/logo@128x59.png HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:30:42] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
-INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 17:31:20] "GET /favicon.ico HTTP/1.1" 200 -
-INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/verify.py', reloading
 INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 183-578-178
@@ -83,7 +291,212 @@ INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 183-578-178
-INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/__init__.py', reloading
+INFO csrf.py:251 The CSRF token has expired.
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:40] "POST /api/v1.0/sms_code HTTP/1.1" 400 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:45] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:46] "GET /api/v1.0/image_code?cur_id=86e85138-2232-4ca3-8095-d07fcbce814f&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:46] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:54:58] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 21:55:14] "GET /api/v1.0/image_code?cur_id=bcf45f21-ebd2-45c7-96fa-38c6b8030f3b&pre_id=86e85138-2232-4ca3-8095-d07fcbce814f HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/verify.py', reloading
 INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:34] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:34] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:34] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /api/v1.0/image_code?cur_id=f47c2a89-888d-4fb8-98d6-4411fe162a77&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [16/Apr/2018 22:00:35] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:55] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:56] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:57] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:57] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:57] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:57] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:57] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:57] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:57] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:57] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:59] "GET /api/v1.0/image_code?cur_id=22871504-670a-4e3e-ba90-2a551b7ddd5a&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:11:59] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:12:22] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:12:24] "GET /api/v1.0/image_code?cur_id=5ef8a2f7-8a1b-49fe-a1ac-3d45e08f99d5&pre_id=22871504-670a-4e3e-ba90-2a551b7ddd5a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:12:32] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:12:32] "GET /api/v1.0/image_code?cur_id=d083a16a-5439-4948-85ce-8766d1616e0e&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:12:48] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:12:49] "GET /api/v1.0/image_code?cur_id=324ab97b-2d19-40db-a930-9b019be56a9d&pre_id=d083a16a-5439-4948-85ce-8766d1616e0e HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:13:40] "GET /api/v1.0/image_code?cur_id=ce8dfb74-4683-45ad-95de-09cb1e757f18&pre_id=324ab97b-2d19-40db-a930-9b019be56a9d HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:13:49] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:13:52] "GET /api/v1.0/image_code?cur_id=482e3efa-4247-486d-ac07-dbfc4622556f&pre_id=ce8dfb74-4683-45ad-95de-09cb1e757f18 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:19] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:20] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:21] "GET /api/v1.0/image_code?cur_id=eaaf3603-d219-4246-9b18-4873bd0715b0&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:21] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:30] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:19:33] "GET /api/v1.0/image_code?cur_id=42292fcb-e33a-4da0-bdd3-62f03fb0622d&pre_id=eaaf3603-d219-4246-9b18-4873bd0715b0 HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:41] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:42] "GET /api/v1.0/image_code?cur_id=50ff50ff-a1fa-47ba-a688-60d55ff66841&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:51] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:20:53] "GET /api/v1.0/image_code?cur_id=9bfc74b5-e69d-4aec-b683-4522f17468e0&pre_id=50ff50ff-a1fa-47ba-a688-60d55ff66841 HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:22:05] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:23:50] "GET /api/v1.0/image_code?cur_id=144bccca-3c75-4e5f-bcbf-9232e4f57482&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:23:53] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:24:27] "GET /api/v1.0/image_code?cur_id=eead49de-9249-4dd5-8958-791ef4e9ec83&pre_id=144bccca-3c75-4e5f-bcbf-9232e4f57482 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:24:41] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:19] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /api/v1.0/image_code?cur_id=faa2d6fc-21fb-4a38-9c24-9a290e309bd5&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:26:20] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /register.html HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:21] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:22] "GET /api/v1.0/image_code?cur_id=b54ad772-d7af-4ceb-b122-2913a8379fc6&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:30] "GET /api/v1.0/image_code?cur_id=f574da4c-18f2-4a79-817a-127c3c83b283&pre_id=b54ad772-d7af-4ceb-b122-2913a8379fc6 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:40] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:57] "GET /register.html?mobile=17610170350&imagecode=LZBA&phonecode=254661&password=111&password2=111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:28:58] "GET /api/v1.0/image_code?cur_id=a4dae97a-a3d9-46f2-a3b8-ed2b2580c9a6&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/api_1_0/verify.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /register.html?mobile=17610170350&imagecode=LZBA&phonecode=254661&password=111&password2=111 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /api/v1.0/image_code?cur_id=9c398d29-6a6e-4ef3-9af9-3b25539cf35d&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:29:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/Desktop/django1/IHome/ihome/utils/sms.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:55] "GET /register.html?mobile=17610170350&imagecode=LZBA&phonecode=254661&password=111&password2=111 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:55] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:55] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:55] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:55] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:56] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:56] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:56] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:56] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:56] "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:56] "GET /api/v1.0/image_code?cur_id=49db4dac-060e-4677-b71a-1079dc2ec961&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:36:56] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:37:11] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 183-578-178
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 15:59:59] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:00] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:00] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:00] "GET /static/css/ihome/index.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:00] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:00] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:00] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:00] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:00] "GET /static/js/ihome/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:03] "GET /api/v1.0/image_code?cur_id=c57709ec-9486-4cb5-ae9a-f8cb4fd6173f&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:14] "POST /api/v1.0/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:39] "GET /register.html?mobile=17610170350&imagecode=NQIM&phonecode=505801&password=111&password2=111 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [17/Apr/2018 16:00:39] "GET /api/v1.0/image_code?cur_id=6c9fa784-2e74-437c-bb78-9a864014561c&pre_id= HTTP/1.1" 200 -

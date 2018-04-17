@@ -1,27 +1,27 @@
 #!/usr/bin/ python3
 # -*-coding:utf-8-*-
 import logging
+import sys
 from logging.handlers import RotatingFileHandler
 
 import redis
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-# CSRFProtect只做验证工作，cookie中的 csrf_token 和表单中的 csrf_token 需要我们自己实现
-from flask_wtf import CSRFProtect
 from flask_session import Session
+from flask_sqlalchemy import SQLAlchemy
+from flask_wtf import CSRFProtect
+
 from config import config_dict
-
-import sys
-
-from utils.commons import RegexConverter
+from ihome.utils.commons import RegexConverter
 
 reload(sys)
 sys.setdefaultencoding('utf8')
 
 # 创建数据库对象
 db = SQLAlchemy()
-"""# 全局可用的redis
+
+# 全局可用的redis
 redis_store = None
+"""
 # 包含请求体的请求都需要开启CSRF
 csrf = CSRFProtect()
 # 开启Session
