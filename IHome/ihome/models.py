@@ -41,11 +41,21 @@ class User(BaseModel, db.Model):
     def password(self, value):
         self.password_hash = generate_password_hash(value)
 
-    #在登录的时候,比对密码
+    # 在登录的时候,比对密码
     def check_password(self, value):
-        #传入密码, 明文, 返回True表示正确, False表示错误
+        # 传入密码, 明文, 返回True表示正确, False表示错误
         return check_password_hash(self.password_hash, value)
-    
+
+    #获取到user的基本展示信息
+    def user_to_dict(self):
+        user_dict = {
+            "user_id": self.id,
+            "name": self.name,
+            "mobile": self.mobile,
+            "avatar_url": constants.QINIU_DOMIN_PREFIX + self.avatar_url
+        }
+        return user_dict
+
 
 class Area(BaseModel, db.Model):
     """城区"""

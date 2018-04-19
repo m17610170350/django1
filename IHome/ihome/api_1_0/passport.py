@@ -1,13 +1,14 @@
 #!/usr/bin/ python3
 # -*-coding:utf-8-*-
 import re
-
 from flask import current_app
+from flask import g
 from flask import request, jsonify, json
 from flask import session
 
 from ihome import redis_store, db
 from ihome.models import User
+from ihome.utils.commons import login_required
 from ihome.utils.response_code import RET
 from . import api
 
@@ -160,3 +161,40 @@ def login_user():
 
     # 7.返回登录信息给前端
     return jsonify(errno=RET.OK, errmsg="登录成功")
+
+#功能描述: 显示首页的用户名
+#请求路径: /api/v1.0/session
+#请求方式: GET
+#请求参数: 无
+@api.route("/session")
+@login_required
+def get_user_name():
+    # 1.获取到用户编号
+
+    user_id = g.user_id
+
+    # 2.到数据库中查询用户的对象信息
+    try:
+        user = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据库查询异常")
+
+    if not user:
+        return jsonify(errno=RET.DATAERR, errmsg="该用户不存在")
+
+    # 3.将用户对象内容,响应到前端页面中
+    return jsonify(errno=RET.OK, errmsg="获取成功", data={"user_id":user_id, "name":user.name})
+
+
+#功能描述: 登出登录
+#请求路径: /api/v1.0/session
+#请求方式: DELETE
+#请求参数: 无
+@api.route("/session", methods=["DELETE"])
+def logout():
+    # 1.删除session中的信息
+    # 2.返回给前端页面
+    session.clear()
+
+    return jsonify(errno=RET.OK, errmsg="退出成功")
