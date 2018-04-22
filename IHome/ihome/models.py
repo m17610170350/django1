@@ -52,6 +52,8 @@ class User(BaseModel, db.Model):
             "user_id": self.id,
             "name": self.name,
             "mobile": self.mobile,
+            "real_name":self.real_name,
+            "id_card":self.id_card,
             "avatar_url": constants.QINIU_DOMIN_PREFIX + self.avatar_url
         }
         return user_dict

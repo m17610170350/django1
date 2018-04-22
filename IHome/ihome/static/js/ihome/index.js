@@ -1,11 +1,11 @@
 //模态框居中的控制
-function centerModals(){
-    $('.modal').each(function(i){   //遍历每一个模态框
-        var $clone = $(this).clone().css('display', 'block').appendTo('body');    
+function centerModals() {
+    $('.modal').each(function (i) {   //遍历每一个模态框
+        var $clone = $(this).clone().css('display', 'block').appendTo('body');
         var top = Math.round(($clone.height() - $clone.find('.modal-content').height()) / 2);
         top = top > 0 ? top : 0;
         $clone.remove();
-        $(this).find('.modal-content').css("margin-top", top-30);  //修正原先已经有的30个像素
+        $(this).find('.modal-content').css("margin-top", top - 30);  //修正原先已经有的30个像素
     });
 }
 
@@ -24,7 +24,7 @@ function setStartDate() {
             startDate: startDate,
             format: "yyyy-mm-dd"
         });
-        $("#end-date").on("changeDate", function() {
+        $("#end-date").on("changeDate", function () {
             $("#end-date-input").val(
                 $(this).datepicker("getFormattedDate")
             );
@@ -48,7 +48,7 @@ function goToSearchPage(th) {
     url += ("aid=" + $(th).attr("area-id"));
     url += "&";
     var areaName = $(th).attr("area-name");
-    if (undefined == areaName) areaName="";
+    if (undefined == areaName) areaName = "";
     url += ("aname=" + areaName);
     url += "&";
     url += ("sd=" + $(th).attr("start-date"));
@@ -57,28 +57,40 @@ function goToSearchPage(th) {
     location.href = url;
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
     // TODO: 检查用户的登录状态
 
-        $.get('/api/v1.0/session', function (resp) {
+    $.get('/api/v1.0/session', function (resp) {
         if (resp.errno == "0") {
             // 取数据进行判断是否有值
             if (resp.data.user_id && resp.data.name) {
                 $(".user-name").html(resp.data.name)
                 $(".user-info").show()
-            }else {
+            } else {
                 $(".register-login").show();
             }
-        }else{
+        } else {
             $(".top-bar>.register-login").show();
         }
     });
 
 
     // TODO: 获取幻灯片要展示的房屋基本信息
-
+    $.get("/api/v1.0/houses/index", function (resp) {
+        if (resp.errno == "0") {
+            $(".swiper-wrapper").html(template("swiper-houses-tmpl", {"houses": resp.data}))
+            // 数据设置完毕后,需要设置幻灯片对象，开启幻灯片滚动
+            var mySwiper = new Swiper('.swiper-container', {
+                loop: true,
+                autoplay: 2000,
+                autoplayDisableOnInteraction: false,
+                pagination: '.swiper-pagination',
+                paginationClickable: true
+            });
+        }
+    })
     // TODO: 数据设置完毕后,需要设置幻灯片对象，开启幻灯片滚动
-    var mySwiper = new Swiper ('.swiper-container', {
+    var mySwiper = new Swiper('.swiper-container', {
         loop: true,
         autoplay: 2000,
         autoplayDisableOnInteraction: false,
@@ -87,14 +99,22 @@ $(document).ready(function(){
     });
 
     // TODO: 获取城区信息,获取完毕之后需要设置城区按钮点击之后相关操作
-
-    // TODO: 城区按钮点击之后相关操作
-    $(".area-list a").click(function(e){
-        $("#area-btn").html($(this).html());
-        $(".search-btn").attr("area-id", $(this).attr("area-id"));
-        $(".search-btn").attr("area-name", $(this).html());
-        $("#area-modal").modal("hide");
-    });
+    $.get('/api/v1.0/areas', function (resp) {
+        if (resp.errno == "0") {
+            $(".area-list").html(template("area-list-tmpl", {"areas": resp.data}))
+            // 给所的城区的a标签添加点击事件
+            $(".area-list a").click(function (e) {
+                // 给点击的按钮设置当前点击的城区名
+                $("#area-btn").html($(this).html());
+                // 给搜索按钮设置 area_id，以便在点击的时候去进入到搜索界面带上参数
+                $(".search-btn").attr("area-id", $(this).attr("area-id"));
+                // 给搜索按钮设置城区的名字
+                $(".search-btn").attr("area-name", $(this).html());
+                // 隐藏当前的弹出框
+                $("#area-modal").modal("hide");
+            });
+        }
+    })
 
     $('.modal').on('show.bs.modal', centerModals);      //当模态框出现的时候
     $(window).on('resize', centerModals);               //当窗口大小变化的时候
@@ -104,7 +124,7 @@ $(document).ready(function(){
         startDate: "today",
         format: "yyyy-mm-dd"
     });
-    $("#start-date").on("changeDate", function() {
+    $("#start-date").on("changeDate", function () {
         var date = $(this).datepicker("getFormattedDate");
         $("#start-date-input").val(date);
     });
